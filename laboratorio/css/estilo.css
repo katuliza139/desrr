@@ -1,0 +1,69 @@
+html,body {
+    height:100%;
+    font-family: Times, Sans-serif;
+}
+
+header {
+        
+    display:block;
+    background:#286af0;
+    padding:10px 10px;
+}
+
+
+#logo {
+   width: 25%;
+   height: 25%;
+    
+    float: left;  
+    
+}
+
+nav {
+        
+    
+    background:#b3b2ac;
+    padding:0px 0px;
+    
+    
+}
+
+
+.linea {
+    display: inline;
+}
+section {
+    width: 80%;
+    background: #ccc;
+    float: left;
+    overflow: auto;
+    padding-bottom: 60px;
+    padding-top:30px;
+}
+
+aside {
+    float: right;
+    width: 19%;
+    text-align: justify;
+    padding-left: 2px;
+    padding-right: 2px;
+    overflow: auto;
+     
+    
+    
+    /*Si quisieramos ocultar el contenido relacionado pondriamos visibility a hidden*/
+    /*visibility: hidden;*/
+}
+footer {
+    position: relative;
+    margin-top: -50px;
+    height: 40px; 
+    padding:5px 0px;
+    clear: both;
+    background: #286af0;
+    text-align: center;
+    color: #fff;
+}
+figure {
+    display: table; margin: 0 auto;
+}
